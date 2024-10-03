@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Itim", cursive;
+    background-image: url(BG2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    height: 95px;
+    backdrop-filter: blur(8px);
+}
+
+.logo img{
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    border: .5px solid rgba(0, 0, 0, .2);
+    border-radius: 65px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.out{
+    position: absolute;
+    color: #000;
+    padding-top: 23px;
+    text-decoration:none;
+    right: 40px;
+}
+
+.itemout {
+    color: #000;
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.side-nav{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    left: 0;
+    background-color: #E1F2FB;
+    width: 95px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.menu{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.menu .bx{
+    padding-left: 20px;
+    text-align: center;
+    top: 7px;
+    font-size: 50px;
+}
+
+.menu span{
+    color: #124076;
+    padding-right: 8px;
+    position: relative;
+    top: 5px;
+    margin-left: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 43px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0,.3);
+}
+
+.menu1{
+    position: relative;
+    font-size: 25px;
+    display: table;
+    width: 300px;
+    padding: 15px;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+
+.bx{
+    color: #124076;
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 7px;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0,.3);
+}
+
+.item{
+    top: 2px;
+    color: #124076;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0,.3);
+}
+
+.menu1:hover{
+    background-color: #c9e5f5;
+}
+
+.side-nav:hover{
+    width: 300px;
+    transition: all 0.5s ease;
+}
+
+.add{
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    background-color: #E1F2FB;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 70%;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0,.3);
+}
+
+.add .bx{
+    right: 0px;
+    top: 16px;
+}

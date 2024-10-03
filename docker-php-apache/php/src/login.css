@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Itim", cursive;
+    background-image: url(BG2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img{
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border: .5px solid rgba(0, 0, 0, .2);
+    border-radius: 65px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.login {
+    width: 480px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    color: #000;
+    border-radius: 13px;
+    padding: 30px 40px;
+}
+
+.login h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.login .input-box {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    font-family: "Itim", cursive;
+    color: black;
+    font-size: 18px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.input-box i {
+    position: absolute;
+    right: 29px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.login .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0069e9;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.login .btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+    font-family: "Itim", cursive;
+}
+
+.login .register {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register p a {
+    color: #0069e9;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}

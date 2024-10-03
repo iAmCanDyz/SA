@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(BG2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-logo img{
+    width: 500px;
+    height: 480px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 70%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(20px);
+}

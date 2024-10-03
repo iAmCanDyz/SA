@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    font-family: "Itim", cursive;
+    background-image: url(BG2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo img{
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    height: 125px;
+    width: 125px;
+    border: .5px solid rgba(0, 0, 0, .4);
+    border-radius: 65px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+.login{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 180px;
+    width: 800px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    color: #000;
+    border-radius: 13px;
+    padding: 30px 40px;
+}
+
+.login h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.login .input-box {
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 70%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    font-family: "Itim", cursive;
+    color: black;
+    font-size: 18px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.login .btn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 45px;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+    font-family: "Itim", cursive;
+}
+
+.login .Full-name {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    margin: 30px 0;
+    justify-content: space-between;
+    
+}
+
+.Full-name input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 40px;
+    font-family: "Itim", cursive;
+    color: black;
+    font-size: 18px;
+    padding: 20px 45px 20px 20px;
+}
+
+.Full-name input::placeholder {
+    color: black;
+}
